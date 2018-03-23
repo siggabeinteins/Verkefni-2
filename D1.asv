@@ -18,4 +18,4 @@ end
 % end
 
 jac=jacobian([r{1} r{2} r{3} r{4}],[x; y; z; d]);
-% Jac=[jac(1:4);jac(5:8);jac(9:12);jac(13:16)]';
+Jac=[jac(1:4),jac(5:8),jac(9:12),jac(13:16)];
